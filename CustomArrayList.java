@@ -18,7 +18,7 @@ public class CustomArrayList<T> implements CustomList<T> {
 		return false;
 	}
 
-	public void makeArrayBigger(){
+	void makeArrayBigger(){
 		Object[] items = new Object[this.items.length *2];
 		for (int i = 0; i < this.items.length - 1; i++) {
 			items[i] = this.items[i];
