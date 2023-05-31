@@ -35,8 +35,11 @@ public class CustomArrayList<T> implements CustomList<T> {
 
 	@Override
 	public int getSize() {
-		// TODO Auto-generated method stub
-		return 0;
+		int i = 0;
+		while (items[i] != null){
+			i++;
+		}
+		return i;
 	}
 
 	@Override
