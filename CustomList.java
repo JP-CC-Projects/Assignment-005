@@ -25,3 +25,5 @@ public interface CustomList<T> {
 	 */
 	T get(int index);
 }
+
+
