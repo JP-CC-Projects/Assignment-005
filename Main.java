@@ -10,7 +10,7 @@ public class Main{
         System.out.println("Array size/number of elements = " + customList.getSize());
         Integer pickIndex = 0;
         System.out.println("Element at index " + pickIndex + " = " + customList.get(pickIndex));
-//
+
 //        customList.add(2);
 //        customList.add(3);
 //        customList.add(4);
@@ -35,7 +35,6 @@ public class Main{
 //        System.out.println("Array size/number of elements = " + customList.getSize());
 //        Integer pickIndex2 = 20;
 //        System.out.println("Element at index " + pickIndex2 + " = " + customList.get(pickIndex2));
-
-
+//
     }
 }

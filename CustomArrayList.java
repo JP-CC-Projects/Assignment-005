@@ -1,12 +1,11 @@
 package com.coderscampus.arraylist;
 
 public class CustomArrayList<T> implements CustomList<T> {
-	Object[] items = new Object[10];
+	private Object[] items = new Object[10];
 
 	@Override
 	public boolean add(T item) {
-		int i = 0;
-		while (i < items.length -1){
+		for (int i = 0; i < items.length -1; i++){
 			if(items[i] == null){
 				items[i] = item;
 				return true;
@@ -15,7 +14,6 @@ public class CustomArrayList<T> implements CustomList<T> {
 			else if(items[items.length - 2] != null){
 				makeArrayBigger();
 			}
-			i++;
 		}
 		return false;
 	}
